@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f5df">
+
+    <Button
+        android:id="@+id/btnUpper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Yourself"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:background="#0091ea"
+        android:textColor="#ffffff"/>
+    <Button
+        android:id="@+id/btnSubUpper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginLeft="3dp"
+        android:layout_below="@id/btnUpper"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+    <Button
+        android:id="@+id/btnLowHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:layout_marginLeft="3dp"
+        android:layout_below="@id/btnSubUpper"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+    <Button
+        android:id="@+id/BtnMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"
+        android:layout_marginLeft="3dp"
+        android:layout_below="@id/btnLowHeader"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/txtDeliveryAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delivery Address"
+        android:layout_marginLeft="3dp"
+        android:layout_below="@id/BtnMobile"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+    <Button
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginLeft="3dp"
+        android:layout_below="@id/txtDeliveryAddress"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/txtConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:layout_marginLeft="3dp"
+        android:layout_below="@id/txtPassword"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:layout_below="@id/txtConfirmPassword"
+        android:background="#1565c0"
+        android:lineSpacingExtra="90sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="18sp"/>
+
+
+
+</RelativeLayout>
